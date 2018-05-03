@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/alex/Desktop/fancyEosKey/Crypto/aes.c
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/aes.c
 stdint.h
 -
 string.h
 -
 aes.h
-/Users/alex/Desktop/fancyEosKey/Crypto/aes.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/aes.h
 
-/Users/alex/Desktop/fancyEosKey/Crypto/aes.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/aes.h
 stdint.h
 -
 
-/Users/alex/Desktop/fancyEosKey/Crypto/base58.c
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/base58.c
 arpa/inet.h
 -
 winsock2.h
@@ -34,19 +34,19 @@ string.h
 sys/types.h
 -
 libbase58.h
-/Users/alex/Desktop/fancyEosKey/Crypto/libbase58.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/libbase58.h
 
-/Users/alex/Desktop/fancyEosKey/Crypto/libbase58.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/libbase58.h
 stdbool.h
 -
 stddef.h
 -
 
-/Users/alex/Desktop/fancyEosKey/Crypto/options.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/options.h
 
-/Users/alex/Desktop/fancyEosKey/Crypto/rmd160.c
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/rmd160.c
 rmd160.h
-/Users/alex/Desktop/fancyEosKey/Crypto/rmd160.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/rmd160.h
 stdio.h
 -
 stdlib.h
@@ -54,45 +54,45 @@ stdlib.h
 string.h
 -
 rmd160.h
-/Users/alex/Desktop/fancyEosKey/Crypto/rmd160.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/rmd160.h
 
-/Users/alex/Desktop/fancyEosKey/Crypto/rmd160.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/rmd160.h
 stdio.h
 -
 
-/Users/alex/Desktop/fancyEosKey/Crypto/sha2.c
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha2.c
 string.h
 -
 stdint.h
 -
 sha2.h
-/Users/alex/Desktop/fancyEosKey/Crypto/sha2.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha2.h
 stdio.h
 -
 
-/Users/alex/Desktop/fancyEosKey/Crypto/sha2.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha2.h
 stdint.h
 -
 stddef.h
 -
 
-/Users/alex/Desktop/fancyEosKey/Crypto/sha3.c
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha3.c
 assert.h
 -
 string.h
 -
 sha3.h
-/Users/alex/Desktop/fancyEosKey/Crypto/sha3.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha3.h
 
-/Users/alex/Desktop/fancyEosKey/Crypto/sha3.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha3.h
 stdint.h
 -
 options.h
-/Users/alex/Desktop/fancyEosKey/Crypto/options.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/options.h
 
-/Users/alex/Desktop/fancyEosKey/Crypto/uECC.c
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/uECC.c
 uECC.h
-/Users/alex/Desktop/fancyEosKey/Crypto/uECC.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/uECC.h
 string.h
 -
 stdio.h
@@ -108,11 +108,11 @@ fcntl.h
 unistd.h
 -
 asm_avr.inc
-/Users/alex/Desktop/fancyEosKey/Crypto/asm_avr.inc
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/asm_avr.inc
 asm_arm.inc
-/Users/alex/Desktop/fancyEosKey/Crypto/asm_arm.inc
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/asm_arm.inc
 
-/Users/alex/Desktop/fancyEosKey/Crypto/uECC.h
+/Users/alex/Desktop/fancy_eos_sdk/Crypto/uECC.h
 stdint.h
 -
 

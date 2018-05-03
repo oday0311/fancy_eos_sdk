@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/alex/Desktop/fancyEosKey/./ec -I/Users/alex/Desktop/fancyEosKey/./Crypto 
+C_INCLUDES = -I/Users/alex/Desktop/fancy_eos_sdk/./ec -I/Users/alex/Desktop/fancy_eos_sdk/./Crypto 
 
 CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/alex/Desktop/fancyEosKey/./ec -I/Users/alex/Desktop/fancyEosKey/./Crypto 
+CXX_INCLUDES = -I/Users/alex/Desktop/fancy_eos_sdk/./ec -I/Users/alex/Desktop/fancy_eos_sdk/./Crypto 
 

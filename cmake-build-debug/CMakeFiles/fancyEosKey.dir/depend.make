@@ -27,9 +27,28 @@ CMakeFiles/fancyEosKey.dir/ec/eos_key_encode.cpp.o: .././Crypto/uECC.h
 CMakeFiles/fancyEosKey.dir/ec/eos_key_encode.cpp.o: ../ec/eos_key_encode.cpp
 CMakeFiles/fancyEosKey.dir/ec/eos_key_encode.cpp.o: ../ec/eos_key_encode.h
 
+CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.o: .././Crypto/aes.h
+CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.o: .././Crypto/sha2.h
+CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.o: ../ec/sha512.cpp
+CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.o: ../ec/sha512.h
+
 CMakeFiles/fancyEosKey.dir/ec/typechainid.cpp.o: ../ec/typechainid.cpp
 CMakeFiles/fancyEosKey.dir/ec/typechainid.cpp.o: ../ec/typechainid.h
 
 CMakeFiles/fancyEosKey.dir/main.cpp.o: .././ec/eos_key_encode.h
 CMakeFiles/fancyEosKey.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/fancyEosKey.dir/utility/utils.cpp.o: ../utility/utils.cpp
+CMakeFiles/fancyEosKey.dir/utility/utils.cpp.o: ../utility/utils.h
+
+CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.o: .././ec/eos_key_encode.h
+CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.o: .././ec/sha512.h
+CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.o: ../wallet/eoswallet.cpp
+CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.o: ../wallet/eoswallet.h
+
+CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.o: .././ec/eos_key_encode.h
+CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.o: .././ec/sha512.h
+CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.o: ../wallet/eoswallet.h
+CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.o: ../wallet/eoswalletmanager.cpp
+CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.o: ../wallet/eoswalletmanager.h
 

@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/alex/Desktop/fancyEosKey/cmake-build-debug"/>
+				<Option working_dir="/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/alex/Desktop/fancyEosKey/cmake-build-debug"/>
+				<Option working_dir="/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/alex/Desktop/fancyEosKey/cmake-build-debug"/>
+				<Option working_dir="/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fancyEosKey">
-				<Option output="/Users/alex/Desktop/fancyEosKey/cmake-build-debug/fancyEosKey" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/alex/Desktop/fancyEosKey/cmake-build-debug"/>
+				<Option output="/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/fancyEosKey" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/alex/Desktop/fancyEosKey/./ec"/>
-					<Add directory="/Users/alex/Desktop/fancyEosKey/./Crypto"/>
+					<Add directory="/Users/alex/Desktop/fancy_eos_sdk/./ec"/>
+					<Add directory="/Users/alex/Desktop/fancy_eos_sdk/./Crypto"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -55,21 +55,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 fancyEosKey"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 fancyEosKey"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fancyEosKey/fast">
-				<Option output="/Users/alex/Desktop/fancyEosKey/cmake-build-debug/fancyEosKey" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/alex/Desktop/fancyEosKey/cmake-build-debug"/>
+				<Option output="/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/fancyEosKey" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/alex/Desktop/fancyEosKey/./ec"/>
-					<Add directory="/Users/alex/Desktop/fancyEosKey/./Crypto"/>
+					<Add directory="/Users/alex/Desktop/fancy_eos_sdk/./ec"/>
+					<Add directory="/Users/alex/Desktop/fancy_eos_sdk/./Crypto"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -79,62 +79,86 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 fancyEosKey/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancyEosKey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 fancyEosKey/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/aes.c">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/aes.c">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/aes.h">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/aes.h">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/base58.c">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/base58.c">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/rmd160.c">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/rmd160.c">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/rmd160.h">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/rmd160.h">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/sha2.c">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha2.c">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/sha2.h">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha2.h">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/sha3.c">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha3.c">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/sha3.h">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha3.h">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/uECC.c">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/uECC.c">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/Crypto/uECC.h">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/Crypto/uECC.h">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/ec/eos_key_encode.cpp">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/ec/eos_key_encode.cpp">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/ec/eos_key_encode.h">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/ec/eos_key_encode.h">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/ec/typechainid.cpp">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/ec/sha512.cpp">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/ec/typechainid.h">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/ec/sha512.h">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/main.cpp">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/ec/typechainid.cpp">
 			<Option target="fancyEosKey"/>
 		</Unit>
-		<Unit filename="/Users/alex/Desktop/fancyEosKey/CMakeLists.txt">
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/ec/typechainid.h">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/main.cpp">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/utility/utils.cpp">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/utility/utils.h">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/wallet/eoswallet.cpp">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/wallet/eoswallet.h">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/wallet/eoswalletmanager.cpp">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/wallet/eoswalletmanager.h">
+			<Option target="fancyEosKey"/>
+		</Unit>
+		<Unit filename="/Users/alex/Desktop/fancy_eos_sdk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

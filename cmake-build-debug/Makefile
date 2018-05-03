@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alex/Desktop/fancyEosKey
+CMAKE_SOURCE_DIR = /Users/alex/Desktop/fancy_eos_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alex/Desktop/fancyEosKey/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles /Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles /Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -312,6 +312,33 @@ ec/eos_key_encode.cpp.s:
 	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/ec/eos_key_encode.cpp.s
 .PHONY : ec/eos_key_encode.cpp.s
 
+ec/sha512.o: ec/sha512.cpp.o
+
+.PHONY : ec/sha512.o
+
+# target to build an object file
+ec/sha512.cpp.o:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.o
+.PHONY : ec/sha512.cpp.o
+
+ec/sha512.i: ec/sha512.cpp.i
+
+.PHONY : ec/sha512.i
+
+# target to preprocess a source file
+ec/sha512.cpp.i:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.i
+.PHONY : ec/sha512.cpp.i
+
+ec/sha512.s: ec/sha512.cpp.s
+
+.PHONY : ec/sha512.s
+
+# target to generate assembly for a file
+ec/sha512.cpp.s:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.s
+.PHONY : ec/sha512.cpp.s
+
 ec/typechainid.o: ec/typechainid.cpp.o
 
 .PHONY : ec/typechainid.o
@@ -366,6 +393,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+utility/utils.o: utility/utils.cpp.o
+
+.PHONY : utility/utils.o
+
+# target to build an object file
+utility/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/utility/utils.cpp.o
+.PHONY : utility/utils.cpp.o
+
+utility/utils.i: utility/utils.cpp.i
+
+.PHONY : utility/utils.i
+
+# target to preprocess a source file
+utility/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/utility/utils.cpp.i
+.PHONY : utility/utils.cpp.i
+
+utility/utils.s: utility/utils.cpp.s
+
+.PHONY : utility/utils.s
+
+# target to generate assembly for a file
+utility/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/utility/utils.cpp.s
+.PHONY : utility/utils.cpp.s
+
+wallet/eoswallet.o: wallet/eoswallet.cpp.o
+
+.PHONY : wallet/eoswallet.o
+
+# target to build an object file
+wallet/eoswallet.cpp.o:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.o
+.PHONY : wallet/eoswallet.cpp.o
+
+wallet/eoswallet.i: wallet/eoswallet.cpp.i
+
+.PHONY : wallet/eoswallet.i
+
+# target to preprocess a source file
+wallet/eoswallet.cpp.i:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.i
+.PHONY : wallet/eoswallet.cpp.i
+
+wallet/eoswallet.s: wallet/eoswallet.cpp.s
+
+.PHONY : wallet/eoswallet.s
+
+# target to generate assembly for a file
+wallet/eoswallet.cpp.s:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.s
+.PHONY : wallet/eoswallet.cpp.s
+
+wallet/eoswalletmanager.o: wallet/eoswalletmanager.cpp.o
+
+.PHONY : wallet/eoswalletmanager.o
+
+# target to build an object file
+wallet/eoswalletmanager.cpp.o:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.o
+.PHONY : wallet/eoswalletmanager.cpp.o
+
+wallet/eoswalletmanager.i: wallet/eoswalletmanager.cpp.i
+
+.PHONY : wallet/eoswalletmanager.i
+
+# target to preprocess a source file
+wallet/eoswalletmanager.cpp.i:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.i
+.PHONY : wallet/eoswalletmanager.cpp.i
+
+wallet/eoswalletmanager.s: wallet/eoswalletmanager.cpp.s
+
+.PHONY : wallet/eoswalletmanager.s
+
+# target to generate assembly for a file
+wallet/eoswalletmanager.cpp.s:
+	$(MAKE) -f CMakeFiles/fancyEosKey.dir/build.make CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.s
+.PHONY : wallet/eoswalletmanager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -396,12 +504,24 @@ help:
 	@echo "... ec/eos_key_encode.o"
 	@echo "... ec/eos_key_encode.i"
 	@echo "... ec/eos_key_encode.s"
+	@echo "... ec/sha512.o"
+	@echo "... ec/sha512.i"
+	@echo "... ec/sha512.s"
 	@echo "... ec/typechainid.o"
 	@echo "... ec/typechainid.i"
 	@echo "... ec/typechainid.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... utility/utils.o"
+	@echo "... utility/utils.i"
+	@echo "... utility/utils.s"
+	@echo "... wallet/eoswallet.o"
+	@echo "... wallet/eoswallet.i"
+	@echo "... wallet/eoswallet.s"
+	@echo "... wallet/eoswalletmanager.o"
+	@echo "... wallet/eoswalletmanager.i"
+	@echo "... wallet/eoswalletmanager.s"
 .PHONY : help
 
 

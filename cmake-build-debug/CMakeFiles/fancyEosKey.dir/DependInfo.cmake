@@ -5,12 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/alex/Desktop/fancyEosKey/Crypto/aes.c" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/aes.c.o"
-  "/Users/alex/Desktop/fancyEosKey/Crypto/base58.c" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/base58.c.o"
-  "/Users/alex/Desktop/fancyEosKey/Crypto/rmd160.c" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/rmd160.c.o"
-  "/Users/alex/Desktop/fancyEosKey/Crypto/sha2.c" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/sha2.c.o"
-  "/Users/alex/Desktop/fancyEosKey/Crypto/sha3.c" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/sha3.c.o"
-  "/Users/alex/Desktop/fancyEosKey/Crypto/uECC.c" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/uECC.c.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/Crypto/aes.c" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/aes.c.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/Crypto/base58.c" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/base58.c.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/Crypto/rmd160.c" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/rmd160.c.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha2.c" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/sha2.c.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/Crypto/sha3.c" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/sha3.c.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/Crypto/uECC.c" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/Crypto/uECC.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -20,9 +20,13 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   ".././Crypto"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/alex/Desktop/fancyEosKey/ec/eos_key_encode.cpp" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/ec/eos_key_encode.cpp.o"
-  "/Users/alex/Desktop/fancyEosKey/ec/typechainid.cpp" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/ec/typechainid.cpp.o"
-  "/Users/alex/Desktop/fancyEosKey/main.cpp" "/Users/alex/Desktop/fancyEosKey/cmake-build-debug/CMakeFiles/fancyEosKey.dir/main.cpp.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/ec/eos_key_encode.cpp" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/ec/eos_key_encode.cpp.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/ec/sha512.cpp" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/ec/sha512.cpp.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/ec/typechainid.cpp" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/ec/typechainid.cpp.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/main.cpp" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/main.cpp.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/utility/utils.cpp" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/utility/utils.cpp.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/wallet/eoswallet.cpp" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/wallet/eoswallet.cpp.o"
+  "/Users/alex/Desktop/fancy_eos_sdk/wallet/eoswalletmanager.cpp" "/Users/alex/Desktop/fancy_eos_sdk/cmake-build-debug/CMakeFiles/fancyEosKey.dir/wallet/eoswalletmanager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
