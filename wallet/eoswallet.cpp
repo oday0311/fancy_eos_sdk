@@ -164,4 +164,6 @@ void EOSWallet::encryptKeys()
     //todo need a packer funtion
     //auto plain_text = Packer::pack(data);
     //walletData.cipher_keys = aes_encrypt(data.checksum, plain_text);
+
+
 }
